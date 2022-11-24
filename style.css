@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+  font-family:'Lora', serif;
+  color:rgb(70, 70, 70);
+  line-height: 1.6;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  display: block;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color:rgb(140, 140, 140);
+  font-size: 28px;
+}
+
+.title-italic {
+  font-size: 28px;
+  font-style: italic;
+}
+
+.banner p {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(100, 100, 100);
+  background: linear-gradient(#effef7, #bfeed8);
+}
+
+a:hover {
+  background: linear-gradient(#aeffd9, #5beea9);
+}
